@@ -38,7 +38,7 @@ if conf["use_server"]:
 	# connect to server and start the session authorization process
 	client = socket.socket()
 	#client.connect(('localhost', 8000))
-	client.connect(('163.221.52.140', 8000))
+	client.connect(('192.168.2.140', 8000))
 	print("[SUCCESS] connected to server")
 
 # initialize the camera and grab a reference to the raw camera capture
