@@ -8,10 +8,10 @@ import subprocess
 
 def request():
 
-    Host = '163.221.52.140'
+    Host = '192.168.2.140'
     Port = 22
-    User = 'iplab'
-    Pass = 'pbldrone'
+    User = 'user'
+    Pass = 'password'
 
     # Connecting
     with SSHClient() as c:
