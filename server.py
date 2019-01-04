@@ -34,7 +34,7 @@ server_socket.listen(1)
 conn, addr = server_socket.accept()
 counter = 1
 
-#target_dir = '/home/iplab/Projects/PBLDrone/detected'
+
 target_dir = '/home/pi/Desktop/detected'    
 try:
     while True:
