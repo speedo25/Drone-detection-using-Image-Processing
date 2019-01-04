@@ -1,0 +1,14 @@
+Motion detection with the Raspberry Pi, Python, and OpenCVShell
+
+|--- automate_surveillance.py - Starts server.py on Main server
+|--- motion_detection.py - Main motion detection code
+|--- conf.json - JSON configuration file
+|--- tempimage
+|    |--- __init__.py
+|    |--- tempimage.py - Temporary writes images to disk
+
+To run the program;
+
+1.run python3 automate_surveillance.py
+2.Make sure to run the next command on a virtual environment
+3.run python2 motion_detection.py --conf conf.json
