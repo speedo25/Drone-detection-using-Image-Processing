@@ -7,7 +7,7 @@ Motion detection with the Raspberry Pi, Python, and OpenCVShell
 |    |--- __init__.py
 |    |--- tempimage.py - Temporary writes images to disk
 
-To run the program;
+To run the program,step by step;
 
 1.run python3 automate_surveillance.py
 2.Make sure to run the next command on a virtual environment
